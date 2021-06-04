@@ -1,0 +1,63 @@
+@font-face 
+{
+    font-family: FuentePrincipal;
+    src: url(../fuentes/BebasNeue-Regular.ttf) format("truetype");
+}
+
+#iniciarSesion:hover
+{
+    color: #db4d4d;
+    
+}
+
+#iniciarSesion
+{
+    margin-right: 5%;
+}
+
+#iniciarSesionImagen
+{
+    filter:invert(100%);
+}
+
+#iniciarSesionImagen:hover
+{
+    filter: grayscale(5);
+}
+
+#listaNav:hover
+{
+    color: #212529;
+}
+
+#listaNav2:hover
+{
+    color: #db4d4d;
+}
+
+#chkTermCond:checked
+{
+    background-color: #db4d4d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #db4d4d;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #db4d4d;
+}
